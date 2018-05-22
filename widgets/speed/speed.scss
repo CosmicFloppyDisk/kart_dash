@@ -1,20 +1,18 @@
 // ----------------------------------------------------------------------------
 // Sass declarations
 // ----------------------------------------------------------------------------
-$background-color:  #dc5945;
+$background-color:  #9c4274;
+$value-color:       #fff;
 
 // ----------------------------------------------------------------------------
-// Widget-clock styles
+// Widget-number styles
 // ----------------------------------------------------------------------------
-.widget-clock {
+.widget-speed {
 
   background-color: $background-color;
-
-  .date {
-    font-size: 10px;
-  }
   
-  .time {
-    font-size: 15px
+  .value {
+    color: $value-color;
+    font-size: 20px;
   }
 }

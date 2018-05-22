@@ -1,4 +1,4 @@
-class Dashing.Number extends Dashing.Widget
+class Dashing.Speed extends Dashing.Widget
 
   onData: (data) ->
     if data.status

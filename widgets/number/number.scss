@@ -3,6 +3,7 @@
 // ----------------------------------------------------------------------------
 $background-color:  #47bbb3;
 $value-color:       #fff;
+$font-size: 280%;
 
 // ----------------------------------------------------------------------------
 // Widget-number styles
@@ -14,6 +15,10 @@ $value-color:       #fff;
   
   .value {
     color: $value-color;
+<<<<<<< Updated upstream
+=======
+    font-size: $font-size;
+>>>>>>> Stashed changes
     text-align: right;
     margin-right: 20px;
   }

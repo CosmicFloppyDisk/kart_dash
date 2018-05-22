@@ -10,10 +10,10 @@ $value-color:       #fff;
 .widget-number {
 
   background-color: $background-color;
+  font-size: 54px;
   
   .value {
     color: $value-color;
-    font-size: 54px;
     text-align: right;
     margin-right: 20px;
   }

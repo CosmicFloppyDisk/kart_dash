@@ -3,7 +3,7 @@
 // ----------------------------------------------------------------------------
 $background-color:  #47bbb3;
 $value-color:       #fff;
-$font-size: 280%;
+$font-size: 54px;
 
 // ----------------------------------------------------------------------------
 // Widget-number styles
@@ -11,15 +11,19 @@ $font-size: 280%;
 .widget-number {
 
   background-color: $background-color;
-  font-size: 54px;
-  
+  font-size: $font-size;
+
   .value {
     color: $value-color;
-<<<<<<< Updated upstream
-=======
-    font-size: $font-size;
->>>>>>> Stashed changes
+    font-size: inherit;
     text-align: right;
     margin-right: 20px;
   }
+  
+  .suffix {
+    color: $value-color;
+    font-size: 36;
+  }
+
+
 }

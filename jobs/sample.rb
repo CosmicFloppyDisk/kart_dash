@@ -1,7 +1,6 @@
-current_valuation = 0
-
 SCHEDULER.every '2s' do
-  current_valuation = rand(15999)
-
-  send_event('valuation', { current: current_valuation })
+  send_event('rpm', { current: rand(14000..15999) })
+  send_event('mph', { current: rand(30..55) })
+  send_event('temp', { current: rand(140..210) })
+  send_event('lap', { current: rand(1..11) })
 end

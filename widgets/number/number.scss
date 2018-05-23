@@ -18,11 +18,13 @@ $font-size: 54px;
     font-size: inherit;
     text-align: right;
     margin-right: 20px;
+    margin-bottom: -10px;
   }
   
   .suffix {
     color: $value-color;
     font-size: 36;
+    text-transform: uppercase;
   }
 
 

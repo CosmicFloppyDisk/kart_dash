@@ -3,7 +3,7 @@
 // ----------------------------------------------------------------------------
 $background-color:  #47bbb3;
 $value-color:       #fff;
-$font-size: 54px;
+$font-size: 27px;
 
 // ----------------------------------------------------------------------------
 // Widget-number styles
@@ -17,13 +17,12 @@ $font-size: 54px;
     color: $value-color;
     font-size: inherit;
     text-align: right;
-    margin-right: 20px;
+    margin-right: 60px;
     margin-bottom: -10px;
   }
   
   .suffix {
     color: $value-color;
-    font-size: 36;
     text-transform: uppercase;
   }
 

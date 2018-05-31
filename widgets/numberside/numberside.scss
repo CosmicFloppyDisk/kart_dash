@@ -1,0 +1,34 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #47bbb3;
+$value-color:       #fff;
+$font-size: 72px;
+
+// ----------------------------------------------------------------------------
+// Widget-number styles
+// ----------------------------------------------------------------------------
+.widget-numberside {
+
+  background-color: $background-color;
+  font-size: $font-size;
+  margin: auto;
+  
+  .value {
+    color: $value-color;
+    font-size: inherit;
+    text-align: right;
+    float: left;
+    margin: inherit;
+    margin-left: 10px;
+  }
+  
+  .suffix {
+    color: $value-color;
+    font-size: 36;
+    text-transform: uppercase;
+    margin: inherit;
+  }
+
+
+}
